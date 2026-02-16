@@ -1,0 +1,15 @@
+/root/.openclaw/workspace/litespeed-ide/target/debug/deps/pty-a823f798c77296fd.d: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/descriptor/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/descriptor/err.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/master/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/master/err.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/slave/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/slave/err.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/err.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/prelude.rs
+
+/root/.openclaw/workspace/litespeed-ide/target/debug/deps/libpty-a823f798c77296fd.rmeta: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/descriptor/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/descriptor/err.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/master/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/master/err.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/slave/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/slave/err.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/err.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/prelude.rs
+
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/descriptor/mod.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/descriptor/err.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/mod.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/mod.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/master/mod.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/master/err.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/slave/mod.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/pty/slave/err.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/fork/err.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pty-0.2.2/src/prelude.rs:

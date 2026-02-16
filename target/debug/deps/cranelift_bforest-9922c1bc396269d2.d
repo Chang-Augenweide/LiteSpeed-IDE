@@ -1,0 +1,10 @@
+/root/.openclaw/workspace/litespeed-ide/target/debug/deps/cranelift_bforest-9922c1bc396269d2.d: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/map.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/node.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/path.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/pool.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/set.rs
+
+/root/.openclaw/workspace/litespeed-ide/target/debug/deps/libcranelift_bforest-9922c1bc396269d2.rmeta: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/map.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/node.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/path.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/pool.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/set.rs
+
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/map.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/node.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/path.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/pool.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cranelift-bforest-0.91.1/src/set.rs:

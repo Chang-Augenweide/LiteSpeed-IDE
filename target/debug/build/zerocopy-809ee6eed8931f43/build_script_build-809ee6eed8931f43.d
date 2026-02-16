@@ -1,0 +1,5 @@
+/root/.openclaw/workspace/litespeed-ide/target/debug/build/zerocopy-809ee6eed8931f43/build_script_build-809ee6eed8931f43.d: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-0.8.39/build.rs
+
+/root/.openclaw/workspace/litespeed-ide/target/debug/build/zerocopy-809ee6eed8931f43/build_script_build-809ee6eed8931f43: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-0.8.39/build.rs
+
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-0.8.39/build.rs:

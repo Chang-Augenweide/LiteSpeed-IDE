@@ -10,6 +10,59 @@ use tracing::debug;
 
 type Content = String;
 
+// 测试模块
+#[cfg(test)]
+mod tests {
+    use std::path::Path;
+    use tempfile::tempdir;
+    use super::*;
+
+    #[tokio::test]
+    async fn test_fs_manager_read_write() {
+        let dir = tempdir().unwrap();
+        let file_path = dir.path().join("test.txt");
+        let test_content = "Hello, LiteSpeed-IDE!";
+
+        // 测试写入
+        let fs_manager = FSManager::new().await.unwrap();
+        fs_manager.write_file(&file_path, test_content).await.unwrap();
+
+        // 测试读取
+        let read_content = fs_manager.read_file(&file_path).await.unwrap();
+        assert_eq!(read_content, test_content);
+    }
+
+    #[tokio::test]
+    async fn test_fs_manager_cache() {
+        let dir = tempdir().unwrap();
+        let file_path = dir.path().join("test.txt");
+        let test_content = "Cached content";
+
+        let fs_manager = FSManager::new().await.unwrap();
+
+        // 第一次读取
+        fs_manager.write_file(&file_path, test_content).await.unwrap();
+        let content1 = fs_manager.read_file(&file_path).await.unwrap();
+
+        // 第二次读取（应该从缓存）
+        let content2 = fs_manager.read_file(&file_path).await.unwrap();
+
+        assert_eq!(content1, test_content);
+        assert_eq!(content2, test_content);
+    }
+
+    #[test]
+    fn test_is_binary_file() {
+        assert!(FSManager::is_binary_file(Path::new("test.bin")));
+        assert!(FSManager::is_binary_file(Path::new("image.png")));
+        assert!(FSManager::is_binary_file(Path::new("archive.zip")));
+
+        assert!(!FSManager::is_binary_file(Path::new("file.rs")));
+        assert!(!FSManager::is_binary_file(Path::new("doc.txt")));
+        assert!(!FSManager::is_binary_file(Path::new("script.py")));
+    }
+}
+
 /// 文件系统管理器 - 负责文件读写、监听、缓存
 #[derive(Debug)]
 pub struct FSManager {

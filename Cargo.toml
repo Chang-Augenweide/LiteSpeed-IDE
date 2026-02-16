@@ -45,3 +45,4 @@ wasmer = "4.1"
 
 [dev-dependencies]
 criterion = "0.5"
+tempfile = "3.8"

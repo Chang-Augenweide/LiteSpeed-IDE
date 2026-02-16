@@ -1,0 +1,20 @@
+Writing generated file: /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/settings.rs
+Writing generated file: /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/types.rs
+Writing generated file: /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/opcodes.rs
+Writing generated file: /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/clif_opt.isle
+Writing generated file: /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/clif_lower.isle
+Writing generated file: /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/inst_builder.rs
+Writing generated file: /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/settings-x86.rs
+Writing generated file: /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/settings-arm64.rs
+Writing generated file: /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/settings-riscv64.rs
+Rebuilding /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/isle_opt.rs
+Writing ISLE-generated Rust code to /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/isle_opt.rs
+Rebuilding /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/isle_x64.rs
+Writing ISLE-generated Rust code to /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/isle_x64.rs
+Rebuilding /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/isle_aarch64.rs
+Writing ISLE-generated Rust code to /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/isle_aarch64.rs
+Rebuilding /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/isle_s390x.rs
+Writing ISLE-generated Rust code to /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/isle_s390x.rs
+Rebuilding /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/isle_riscv64.rs
+Writing ISLE-generated Rust code to /root/.openclaw/workspace/litespeed-ide/target/release/build/cranelift-codegen-5371290f6706655e/out/isle_riscv64.rs
+fatal: not a git repository (or any of the parent directories): .git

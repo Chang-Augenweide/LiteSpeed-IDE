@@ -4,8 +4,10 @@ pub mod fs;
 pub mod plugin;
 pub mod lsp;
 pub mod git;
+pub mod search;
 
 pub use fs::FSManager;
 pub use plugin::PluginManager;
 pub use lsp::LSPClient;
 pub use git::GitManager;
+pub use search::{SearchManager, SearchResult};

@@ -80,6 +80,8 @@ impl GitManager {
                     }
                 });
 
+            let is_clean = modified.is_empty() && untracked.is_empty();
+
             let status = GitStatus {
                 branch,
                 modified,
@@ -87,7 +89,7 @@ impl GitManager {
                 staged,
                 ahead: 0,
                 behind: 0,
-                clean: modified.is_empty() && untracked.is_empty(),
+                clean: is_clean,
             };
 
             self.status_cache = Some(status.clone());
