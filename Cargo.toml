@@ -1,0 +1,47 @@
+[package]
+name = "litespeed-ide"
+version = "0.1.0"
+edition = "2021"
+description = "极致性能的轻量化 IDE 为高级开发者打造，比 VS Code 轻 5 倍、快 3 倍"
+authors = ["Chang-Augenweide <kaixuan_chang_pro@163.com>"]
+
+[dependencies]
+# Tauri 框架 (暂时禁用，等 Phase 1 后期再集成)
+# tauri = { version = "2.0.0-beta", features = [] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# 异步运行时
+tokio = { version = "1.35", features = ["full"] }
+
+# 文件系统
+notify = "6.1"
+path-absolutize = "3.1"
+walkdir = "2.4"
+
+# Git 集成
+git2 = "0.18"
+
+# 搜索索引
+grep = "0.3"
+memchr = "2.6"
+
+# LRU 缓存
+lru = "0.12"
+
+# 错误处理
+anyhow = "1.0"
+thiserror = "1.0"
+
+# 日志
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+# PTY (终端)
+pty = "0.2"
+
+# WebAssembly (插件)
+wasmer = "4.1"
+
+[dev-dependencies]
+criterion = "0.5"
